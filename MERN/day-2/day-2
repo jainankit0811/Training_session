@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+</head>
+<body>
+    <form action="https://www.google.com">
+        <!--Name-->
+        <label for="name">Name</label><br>
+        <input type="text" placeholder="Enter your name" id="name"><br>
+
+        <!--Email-->
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="Enter your email" id="email"><br>
+
+        <!--Gender-->
+        <label>Gender</label><br>
+        <label>Male</label>
+        <input type="radio" name="gender"/>
+        <label>Female</label>
+        <input type="radio" name="gender" /><br>  
+        
+        <!--Dropbox-->
+        <select name="country">
+            <option value="india">India</option>
+            <option value="us">US</option>
+            <option value="uk">UK</option>
+        </select><br>
+
+        <textarea rows="10" cols="20"></textarea><br>
+
+        <!-- Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>

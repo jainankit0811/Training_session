@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    outline: solid ;
+    outline-color: rgb(139, 136, 136);
+    width: 400px;
+    height: 500px;
+    align-content: center;
+
+    
+}
+.heading{
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.container2{
+    margin-top: 15px;
+    text-align: center;
+}
+input{
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px ;
+    opacity: 0.5;
+}
+button{
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    
+}
+.button{
+    text-align: center;
+}
+.down{
+    text-align: center;
+}
