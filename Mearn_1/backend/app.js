@@ -10,7 +10,7 @@ const PORT = 3000 ;
 //NOTE fn to connect with the mongodb
 dbConnect() ;
 
-
+app.use('/api', require('./routes/userRoutes'));
 
 //listening on the server
 app.listen(PORT,()=>{
